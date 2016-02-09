@@ -1,0 +1,11 @@
+jsonpCallback ({
+	"participationType":
+	[{
+		"partType":"[[T6:[[E48:[[S334:fr_id]]-[[S334:consID]]:part-type]]]]",
+		"minimum":"[[?x1832x::[[E48:[[S334:fr_id]]-[[S334:consID]]:part-type-id]]::500::[[?x1833x1834x::[[E48:[[S334:fr_id]]-[[S334:consID]]:part-type-id]]::1000::[[?x1835x::[[E48:[[S334:fr_id]]-[[S334:consID]]:part-type-id]]::1500::[[?x1836x::[[E48:[[S334:fr_id]]-[[S334:consID]]:part-type-id]]::2000::]]]]]]]]",
+		"raised":"[[T6:[[E48:[[S334:fr_id]]-[[S334:consID]]:dollars]]]]",
+		"goal":"[[T6:[[E48:[[S334:fr_id]]-[[S334:consID]]:goal]]]]",
+		"remaining":"[[?x[[E48:[[S334:fr_id]]-[[S334:consID]]:goal-remaining]]x::xx::Goal Achieved::[[T6:[[E48:[[S334:fr_id]]-[[S334:consID]]:goal-remaining]]]]]]",
+	}]
+
+});
