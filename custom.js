@@ -1,5 +1,4 @@
 //loadCustom is built in funciton available in Particiapnt Center. It loads only after rest of Particpant Center has finished loading. Use this to fire our fucntion 
-
 var loadCustom = function() {
     YAHOO.Convio.PC2.Utils.require("pc2:registrationLoaded", "pc2:constituentLoaded", "pc2:configurationLoaded", "pc2:wrapperLoaded", function() {
 		getTeamMembers();
