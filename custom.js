@@ -19,10 +19,9 @@ var getTeamMembers = function(){
     var auth = jQuery('#auth').val();
         
     console.log("Team Goal for "+teamName+"("+teamID+") in event id "+frID+" is currently "+teamGoal);
-    
-    apiUrl = 'https://secure3.convio.net/clientName/site/CRTeamraiserAPI?';
+  
     apiKey = 'apiKeyGoesHere';
-    apiCallgetTeam = apiUrl+'method=getTeamMembers&api_key='+apiKey+'&v=1.0&team_id='+teamID+'&fr_id='+frID+'&response_format=json';
+    apiCallgetTeam = 'https://secure3.convio.net/clientName/site/CRTeamraiserAPI?method=getTeamMembers&api_key='+apiKey+'&v=1.0&team_id='+teamID+'&fr_id='+frID+'&response_format=json';
    
     if(teamCap == true){
 	    jQuery.getJSON(apiCallgetTeam, function(data){
